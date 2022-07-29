@@ -1,0 +1,293 @@
+:root {
+  --primery-text-color: #212121;
+  --text-color-white: #ffffff;
+  --text-color-gray: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primery-background-color: #ffffff;
+  --background-color-section: #2f303a;
+  --primery-background-color-btn: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.footer-address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* -----------CТУДИЯ------------ */
+/* HEADER*/
+/* --HEADER-NAV-- */
+
+.header-logo,
+.current {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.header-logo {
+  color: #000000;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/*--HEADER-CONTACS-*/
+
+.header-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-list .current {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color-gray);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+/* --HERO-- */
+.hero {
+  background-color: var(--background-color-section);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color-white);
+}
+/* --BUTTON-- */
+.button {
+  font-family: inherit, sans-serif;
+  border: none;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primery-text-color);
+}
+
+.button.hero-primery {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-white);
+}
+
+.button.hero-primery:hover,
+.button.hero-primery:focus {
+  color: var(--primery-text-color);
+  background-color: var(--primery-background-color-btn);
+}
+
+/* --FEATURE-- */
+
+/*.feature {
+}
+.feature-list {
+}
+.feature-item {
+} */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-text-color);
+}
+
+.feature-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray);
+}
+
+/*--ABOUT--  */
+
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+
+/* --COMMAND-- */
+.command {
+  background-color: #f5f4fa;
+}
+
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+
+/* .command-list {
+}
+.command-item {
+} */
+
+.command-after-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+
+.command-text {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray);
+}
+
+/* --FOOTER-- */
+
+.footer {
+  background-color: var(--background-color-section);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-logo {
+  color: var(--text-color-white);
+}
+
+.footer-list .aside {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.footer-list .aside:hover,
+.footer-list .aside:focus {
+  color: var(--accent-color);
+}
+
+.footer-list .aside:hover,
+.footer-list .aside:focus {
+  color: var(--accent-color);
+}
+
+.footer-list .footer-map {
+  color: #ffffff;
+}
+
+/* -----------ПОРТФОЛИО---------------- */
+/* ------------PROGECTS------------ */
+/* ------BUTTON---------- */
+.button.projects-primery,
+.button.projects-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background-color: var(--primery-background-color-btn);
+}
+.button.projects-primery:hover,
+.button.projects-primery:focus {
+  color: var(--text-color-white);
+  background-color: var(--accent-color);
+}
+.button.projects-secondary:hover,
+.button.projects-secondary:focus {
+  color: var(--text-color-white);
+  background-color: var(--accent-color);
+}
+
+/* .work-list {
+}
+.work-item {
+}
+.work-img {
+} */
+
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
+}
+.work-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray);
+}
