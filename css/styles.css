@@ -89,13 +89,13 @@ img {
 /* HEADER*/
 /* --HEADER-NAV-- */
 
-.header {
+.header-page {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
-.header.container {
+.header-page.container {
   display: flex;
 }
 
@@ -288,7 +288,6 @@ img {
 }
 
 /* --COMMAND-- */
-.command.section {padding-top: 0;}
 
 .command {
   background-color: #f5f4fa;
