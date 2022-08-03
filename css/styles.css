@@ -288,6 +288,8 @@ img {
 }
 
 /* --COMMAND-- */
+.command.section {padding-top: 0;}
+
 .command {
   background-color: #f5f4fa;
 }
